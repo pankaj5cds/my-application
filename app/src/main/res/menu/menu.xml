@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+        android:icon="@drawable/ic_icon_settings"
+        android:title="@string/item1"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/item2"
+        android:title="@string/item2"
+        app:showAsAction="never"/>
+    <item android:id="@+id/item3"
+        android:title="@string/item3"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/sub_item1"
+                android:title="@string/sub_item1"/>
+            <item android:id="@+id/sub_item2"
+                android:title="@string/sub_item2"/>
+        </menu>
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Logout"
+        app:showAsAction="never"/>
+    <item android:id="@+id/editProfile"
+        android:title="@string/edit_profile"
+        app:showAsAction="never"/>
+    <item android:id="@+id/showProfile"
+        android:title="@string/progress"
+        app:showAsAction="never"/>
+</menu>

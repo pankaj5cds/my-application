@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "264314188000",
+    "firebase_url": "https://fir-auth-c6f8d.firebaseio.com",
+    "project_id": "fir-auth-c6f8d",
+    "storage_bucket": "fir-auth-c6f8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264314188000:android:f2482b24d671ba6b4f6085",
+        "android_client_info": {
+          "package_name": "com.rajlee.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264314188000-4q84dif8jjih3ke6imv4a2s2sj3duv5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVv7l5bMYP0p7NrXmzX5URlxSH6eEqQQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264314188000-4q84dif8jjih3ke6imv4a2s2sj3duv5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
